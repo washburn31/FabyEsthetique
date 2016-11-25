@@ -1,0 +1,174 @@
+<div role="tabpanel" class="tab-pane fade" id="tab-2">
+                        <div class="row">
+                            <div class="wow fadeInRight justify tilde col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">
+                                Mes prestations s’adressent aux entreprises, maisons de retraite, associations, en suivi hospitalier / Cliniques, pour des
+                                personnes malades (Alzheimer, Parkinson, traitements cancer et autres), lors d’évènementiels
+                                (salon, portes ouvertes et autres)
+                                <br /> • Le bien-être s’inscrit dans le service à la personne. Il vise à une meilleure hygiène
+                                de vie, à la tranquillité du corps et de l’esprit, à l’équilibre global et à l’épanouissement
+                                personnel dans une unité retrouvée.
+                                <br /> • Les techniques utilisées sont sans visées médicales ni caractères sexuel. Elles ne peuvent
+                                pas remplacer une séance de kinésithérapie.
+                                <br />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3 col-md-offset-1 col-sm-offset-0 col-xs-4">
+                                <img src="img/massage.jpg" alt="Massage" width="112" height="150" />
+                            </div>
+                            <div class="col-md-3 col-xs-4">
+                                <img src="img/massage2.jpg" alt="Massage" width="101" height="135" />
+                            </div>
+                            <div class="col-md-3 col-xs-4" style="margin-top:40px">
+                                <img src="img/massage3.jpg" alt="Massage" width="124" height="92" />
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div id="main_top">
+                                <div class="main hidden-xs"></div>
+                            </div>
+                            <div class="wow fadeInRight justify tilde col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">
+                                <table class="table table-bordered" style="margin-top:60px">
+                                    <thead style="font-size:26px;font-weight:bold">
+                                        <tr>
+                                            <th>Le massage minute au service de l’entreprise, prenez soin de vos talents</th>
+                                            <th>Le massage bien-être en maison de retraite</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <b>B to B, Bien-être for Business !</b><br/><br/> Par le bien-être qu’il procure, le
+                                                massage minute trouve naturellement sa place au service du développement de
+                                                l’entreprise :
+                                                <ul>
+                                                    <li>Diminue l’anxiété et les effets du stress</li>
+                                                    <li>Réduit les douleurs chroniques (dos…) et la migraine</li>
+                                                    <li>Augmente la production de sérotonine</li>
+                                                    <li>Booster les performances</li>
+                                                    <li>Valoriser vos collaborateurs</li>
+                                                    <li>agit en prévention du burn out</li>
+                                                </ul>
+                                                Un massage minute (massage non médical) apporte à la fois détente et redynamisme au salarié, permettant ainsi de
+                                                relâcher ses tensions mais aussi de reprendre son travail de manière efficace.
+                                                Cette prestation permet d’enrichir la pause des salariés, de diminuer les
+                                                coups de barre de l’après-midi et d’améliorer la concentration et la disponibilité. Elle valorise également l’image de l’entreprise, améliore
+                                                les conditions de travail et participe à la motivation des équipes.
+
+                                            </td>
+                                            <td>
+                                                <b>Un temps de rencontre, de partage, de plaisir…</b> En maison de retraite le toucher est de loin la stimulation la moins sollicitée
+                                                ou alors seulement par pure nécessité des soins. Le plus souvent « on n’ose
+                                                pas » ou « on ne sait pas comment faire » depuis quelques années, le massage
+                                                bien-être est devenu une évidence en maison de retraite tant pour les personnes
+                                                âgées qui en bénéficient que pour les soignants et les familles qui en constatent
+                                                les effets positifs.                                         
+                                                <ul>
+                                                    <li>
+                                                        Les bienfaits constatés : Facteur de lien social, éveil d’un ou plusieurs sens, réactivation de certaines sensations, émotions
+                                                        ressenties, sérénité retrouvée, confort amélioré, apaisement mental
+                                                        etc…
+                                                    </li>
+                                                    <li>
+                                                        Résultats : Un résident tranquille et soulagé, une famille impliquée et rassurée, un personnel posé et engagé, telles sont
+                                                        les conditions réunies pour un meilleur accompagnement de la personne
+                                                        accueillie en maison de retraite.
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <b>Lors d’évènementiels</b> (salons, portes-ouvertes, etc.), le massage permet
+                                                de communiquer d’une manière particulièrement originale et efficace. En «
+                                                prenant soin » de vos visiteurs, le massage minute détend et met en confiance
+                                                vos clients et futurs clients, valorise l’image de votre entreprise.
+                                                <br />
+                                                <br /> Le massage minute est également <b>un cadeau de prestige</b> pour
+                                                vos collaborateurs, vos clients et vos partenaires. 
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="main_bottom">
+                                <div class="main hidden-xs" />
+                            </div>
+                            <br />
+                            <div class="wow fadeInRight justify tilde col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10">
+                                <div>
+                                    <b>Modalités d’intervention</b>
+                                    <br /> - <b>Durée</b> : la séance de massage minute se pratique habillée et dure 20 minutes
+                                    environ par personne. J’adapte mon temps et les conditions de mon intervention en fonction
+                                    de chacun.
+                                    <b>Matériel</b> : la séance se pratique sur une chaise ergonomique spécialement prévue
+                                    à cet effet : dans cette position, le client / sénior bénéficient d’un réel confort.
+                                    <b>Lieu</b> : la séance est proposée dans le lieu choisi si possible par le client /
+                                    sénior et sa pratique ne demande qu’un petit espace de détente comme par exemple dans
+                                    sa chambre, dans la salle d’animation où d’autres activités ont lieu simultanément, ou
+                                    bien un espace dédié à la relaxation.
+                                    <b>Pour qui?</b> : les séances s’adressent à tous les clients / séniors. Des séances de relaxation
+                                    en massage minute sont également proposées aux familles et aux proches.
+                                </div>
+                                <br />
+                                <div style="color:#DC297F">
+                                    Si un problème physique ou médical est présent, le massage bien-être ne pourra pas être pratiqué. La technique pratiquée
+                                    ne donne lieu à aucun diagnostic, ni aucun traitement thérapeutique. Elle ne s'apparentent
+                                    en rien à la pratique de la kinésithérapie, ainsi qu'à toute pratique médicale
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <!--<div class="col-md-offset-1 col-md-6 col-xs-8 col-xs-offset-1" style="padding-top:10px">
+                                <img src="img/index3.png" alt="Faby" class="img-responsive" />
+                            </div>-->
+                            <div class="col-md-4 col-xs-3 col-xs-offset-1" style="vertical-align: bottom;padding-top:10px">
+                                <a href="#" class="btn btn-success">
+                                    Demande de devis
+                                </a>
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-offset-1 col-md-10">
+                                <p>
+                                    Voici 3 études sur l'importance des massages. Cliquez sur les images pour télécharger les
+                                    études:
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="./PDF/Souffrance-au-travail-et-rôle-du-massage-Bien-Etre-1.pdf" download="Souffrance-au-travail-et-rôle-du-massage-Bien-Etre.pdf">
+                                    <div class="hovereffectetude">
+                                        <img src="img/etude1.png" alt="Faby" class="img-responsive" />
+                                        <div class="overlay">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="./PDF/Stress-en-Entreprise-et-massage-de-Bien-Etre.pdf" download="Stress-en-Entreprise-et-massage-de-Bien-Etre.pdf">
+                                    <div class="hovereffectetude">
+                                        <img src="img/etude2.png" alt="Faby" class="img-responsive" />
+                                        <div class="overlay">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="./PDF/Utilité-du-massage-de-Bien-Etre-en-Entreprise.pdf" download="Utilité-du-massage-de-Bien-Etre-en-Entreprise.pdf">
+                                    <div class="hovereffectetude">
+                                        <img src="img/etude3.png" alt="Faby" class="img-responsive" />
+                                        <div class="overlay">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>

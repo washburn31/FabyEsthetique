@@ -1,0 +1,645 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Faby Esthetique, esthéticienne à domicile à Perpignan, Saint-Estève, Baho, Le Soler, Toulouges et Canohès" />
+    <meta name="keywords" content="esthétique,esthéticienne,à,domicile,perpignan,66,cils,epilation,ongle,Faby, Perpignan, Saint-Estève, Baho, Le Soler, Toulouges, Canohès" />
+    <meta name="title" content="Faby Esthetique, esthéticienne à domicile dans le secteur de Perpignan" />
+    <title>Faby Esthetique</title>
+
+    <link rel="stylesheet" href="css/bundle.css">
+    <!--<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/animated-headlines/animated-headlines.css">-->
+    <link rel="stylesheet" href="assets/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Available main styles: styles-coral.css, styles-mint.css -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]><ta
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57-precomposed.png">
+
+    <link rel="shortcut icon" href="img/ico/favicon.png">
+
+    <!--<link href="/navbar.html" rel="import" />-->
+    <style type="text/css">
+        .table {
+            border: 0px;
+        }
+
+        .table-bordered > thead > tr > th,
+        .table-bordered > tbody > tr > th,
+        .table-bordered > tfoot > tr > th,
+        .table-bordered > thead > tr > td,
+        .table-bordered > tbody > tr > td,
+        .table-bordered > tfoot > tr > td {
+            border: 0px;
+            /*border: 1px solid #CC9933;*/
+        }
+
+        .table > thead > tr > th {
+            vertical-align: top;
+        }
+
+        #main_top {
+            position: relative;
+        }
+
+            #main_top div.main {
+                position: absolute;
+                top: 10px;
+                left: 40px;
+                background: url('img/main.jpg') repeat-x left top, url('img/main.jpg') repeat-y left bottom 4px;
+                width: 370px;
+                height: 347px;
+            }
+
+        #main_bottom {
+            position: relative;
+        }
+
+            #main_bottom div.main {
+                position: absolute;
+                bottom: 0px;
+                right: 35px;
+                background: url('img/main.jpg') repeat-x right bottom, url('img/main.jpg') repeat-y right bottom 4px;
+                width: 375px;
+                height: 340px;
+            }
+
+        .tab-content .tab-content {
+            padding-top: 10px;
+        }
+
+        .hovereffectfeminin {
+            width: 100%;
+            height: 100%;
+            float: left;
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+            cursor: default;
+        }
+
+            .hovereffectfeminin .overlay {
+                /*width: 150px;*/
+                height: 100%;
+                position: absolute;
+                overflow: hidden;
+                top: 0;
+                left: 0;
+                padding: 50px 20px;
+            }
+
+            .hovereffectfeminin img {
+                display: block;
+                position: relative;
+                max-width: none;
+                /*width: calc(100% + 20px);*/
+                width: 367px;
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(-10px, 0, 0);
+                transform: translate3d(-10px, 0, 0);
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+            }
+
+            .hovereffectfeminin:hover img {
+                opacity: 0.4;
+                filter: alpha(opacity=40);
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+            .hovereffectfeminin h2 {
+                text-transform: uppercase;
+                color: #fff;
+                text-align: center;
+                position: relative;
+                font-size: 17px;
+                overflow: hidden;
+                padding: 0.5em 0;
+                background-color: transparent;
+            }
+
+                .hovereffectfeminin h2:after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background: #fff;
+                    content: '';
+                    -webkit-transition: -webkit-transform 0.35s;
+                    transition: transform 0.35s;
+                    -webkit-transform: translate3d(-100%, 0, 0);
+                    transform: translate3d(-100%, 0, 0);
+                }
+
+            .hovereffectfeminin:hover h2:after {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+            .hovereffectfeminin a,
+            .hovereffectfeminin p {
+                color: #FFF;
+                opacity: 0;
+                filter: alpha(opacity=0);
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(100%, 0, 0);
+                transform: translate3d(100%, 0, 0);
+            }
+
+            .hovereffectfeminin:hover a,
+            .hovereffectfeminin:hover p {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+        .hovereffectmasculin {
+            width: 100%;
+            height: 100%;
+            float: left;
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+            cursor: default;
+        }
+
+            .hovereffectmasculin .overlay {
+                /*width: 150px;*/
+                height: 100%;
+                position: absolute;
+                overflow: hidden;
+                top: 0;
+                left: 0;
+                padding: 50px 20px;
+            }
+
+            .hovereffectmasculin img {
+                display: block;
+                position: relative;
+                max-width: none;
+                /*width: calc(100% + 20px);*/
+                width: 214px;
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(-10px, 0, 0);
+                transform: translate3d(-10px, 0, 0);
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+            }
+
+            .hovereffectmasculin:hover img {
+                opacity: 0.4;
+                filter: alpha(opacity=40);
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+            .hovereffectmasculin h2 {
+                text-transform: uppercase;
+                color: #fff;
+                text-align: center;
+                position: relative;
+                font-size: 17px;
+                overflow: hidden;
+                padding: 0.5em 0;
+                background-color: transparent;
+            }
+
+                .hovereffectmasculin h2:after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background: #fff;
+                    content: '';
+                    -webkit-transition: -webkit-transform 0.35s;
+                    transition: transform 0.35s;
+                    -webkit-transform: translate3d(-100%, 0, 0);
+                    transform: translate3d(-100%, 0, 0);
+                }
+
+            .hovereffectmasculin:hover h2:after {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+            .hovereffectmasculin a,
+            .hovereffectmasculin p {
+                color: #FFF;
+                opacity: 0;
+                filter: alpha(opacity=0);
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(100%, 0, 0);
+                transform: translate3d(100%, 0, 0);
+            }
+
+            .hovereffectmasculin:hover a,
+            .hovereffectmasculin:hover p {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+        .hovereffectetude {
+            /*width: 100%;*/
+            height: 100%;
+            float: left;
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+            cursor: default;
+        }
+
+            .hovereffectetude .overlay {
+                /*width: 150px;*/
+                height: 100%;
+                position: absolute;
+                overflow: hidden;
+                top: 0;
+                left: 0;
+                padding: 50px 20px;
+            }
+
+            .hovereffectetude img {
+                display: block;
+                position: relative;
+                max-width: none;
+                /*width: calc(100% + 20px);*/
+                width: 300px;
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(-10px, 0, 0);
+                transform: translate3d(-10px, 0, 0);
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+            }
+
+            .hovereffectetude:hover img {
+                opacity: 0.4;
+                filter: alpha(opacity=40);
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+            .hovereffectetude h2 {
+                text-transform: uppercase;
+                color: #fff;
+                text-align: center;
+                position: relative;
+                font-size: 17px;
+                overflow: hidden;
+                padding: 0.5em 0;
+                background-color: transparent;
+            }
+
+                .hovereffectetude h2:after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background: #fff;
+                    content: '';
+                    -webkit-transition: -webkit-transform 0.35s;
+                    transition: transform 0.35s;
+                    -webkit-transform: translate3d(-100%, 0, 0);
+                    transform: translate3d(-100%, 0, 0);
+                }
+
+            .hovereffectetude:hover h2:after {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+            .hovereffectetude a,
+            .hovereffectmasculin p {
+                color: #FFF;
+                opacity: 0;
+                filter: alpha(opacity=0);
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(100%, 0, 0);
+                transform: translate3d(100%, 0, 0);
+            }
+
+            .hovereffectetude:hover a,
+            .hovereffectmasculin:hover p {
+                opacity: 1;
+                filter: alpha(opacity=100);
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+        .tab-content .nav-tabs li.active a {
+            font-size: 20px;
+            color: #b1e4e3 !important;
+            /*bleu lagon*/
+            border-bottom: 5px solid #b1e4e3;
+            /*#94BCC8*/
+            /*bleu lagon*/
+        }
+
+        .tab-content .nav-tabs li a:hover {
+            color: #94BCC8;
+            border-bottom: 5px solid #94BCC8;
+            /*bleu lagon*/
+        }
+
+        .tab-content .nav-tabs li a {
+            color: #b1e4e3;
+            border-bottom: 5px solid #b1e4e3;
+            /*bleu lagon*/
+        }
+    </style>
+</head>
+
+<body>
+    <!--<script>
+        // var doc = document.querySelector('link[rel="import"]').import;
+        // // Grab DOM from doc.html's document.
+        // var text = doc.querySelector('.mynav');
+        // document.body.appendChild(text.cloneNode(true));
+
+        var link = document.querySelector('link[rel="import"]');
+            link.addEventListener('load', function(e) {
+            var importedDoc = link.import;
+            document.body.appendChild(importedDoc);
+            // importedDoc points to the document under component.html
+            });
+    </script>-->
+    <nav class="navbar navbar-default navbar-fixed-top navigation-top couleurBandeau" id="navigation-top-1" role="navigation">
+        <div class="container-fluid ">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="visible-lg">
+                        <div class="col-lg-3 title pull-left" style="text-align:left">
+                            <div class="phone-icon" style="margin-top:10px">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <p style="width:50px;margin-left:45px">
+                                <a href="tel:+33614892548" style="color:black;font-size:33px;z-index:9999">06.14.89.25.48</a>
+                            </p>
+                            <div style="font-weight: bold;font-size:20px;color:white;line-height:70%">Du lundi au samedi</div>
+                            <div style="font-weight: bold;font-size:20px;color:white;text-transform: lowercase;line-height:140%">10h-20h30 non-stop</div>
+                        </div>
+                        <div class="col-lg-5 title" style="margin-left:40px;">
+                            <a href="index.html">
+                                <img src="img/logo_header_brillant.png" alt="Faby" class="img-responsive" width="480" />
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 collapse navbar-collapse content-img wow fadeInRight navbar-right">
+                            <a href="#mapModal" data-toggle="modal">
+                                <img src="img/map.jpg" alt="Faby" class="img-responsive" height="200" width="230" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="visible-md">
+                        <div class="col-md-4 title pull-left" style="text-align:left">
+                            <div class="phone-icon" style="margin-top:10px">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <p style="width:50px;margin-left:45px">
+                                <a href="tel:+33614892548" style="color:black;font-size:33px;z-index:9999">06.14.89.25.48</a>
+                            </p>
+                            <div style="font-weight: bold;font-size:20px;color:white;line-height:70%">Du lundi au samedi</div>
+                            <div style="font-weight: bold;font-size:20px;color:white;text-transform: lowercase;line-height:140%">10h-20h30 non-stop</div>
+                        </div>
+                        <div class="col-md-5">
+                            <a href="index.html">
+                                <img src="img/logo_header_brillant.png" alt="Faby" class="img-responsive" width="480" />
+                            </a>
+                        </div>
+                        <div class="col-md-3 content-img wow fadeInRight navbar-right">
+                               <a href="#mapModal" data-toggle="modal">
+                                <img src="img/map.jpg" alt="Faby" class="img-responsive" height="200" width="230" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="visible-sm">
+                        <div class="col-sm-7 title pull-left" style="text-align:left">
+                            <div class="phone-icon" style="margin-top:10px">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <p style="width:50px;margin-left:45px">
+                                <a href="tel:+33614892548" style="color:black;font-size:33px;z-index:9999">06.14.89.25.48</a>
+                            </p>
+                            <div style="font-weight: bold;font-size:20px;color:white;line-height:70%">Du lundi au samedi</div>
+                            <div style="font-weight: bold;font-size:20px;color:white;text-transform: lowercase;line-height:140%">10h-20h30 non-stop</div>
+                        </div>
+                        <div class="col-sm-4 content-img wow fadeInRight pull-right" style="margin-top:20px">
+                               <a href="#mapModal" data-toggle="modal">
+                                <img src="img/map.jpg" alt="Faby" class="img-responsive" height="200" width="230" />
+                            </a>
+                        </div>
+                        <div class="col-sm-6 title pull-left">
+                            <a href="index.html">
+                                <img src="img/logo_header_brillant.png" alt="Faby" class="img-responsive" width="480" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="visible-xs">
+                        <div class="col-xs-10 title pull-left" style="text-align:left">
+                            <div class="phone-icon" style="">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <p style="width:50px;margin-left:45px">
+                                <a href="tel:+33614892548" style="color:black;font-size:22px;z-index:9999">06.14.89.25.48</a>
+                            </p>
+                            <div style="font-weight: bold;font-size:14px;color:white;line-height:70%">Du lundi au samedi</div>
+                            <div style="font-weight: bold;font-size:14px;color:white;text-transform: lowercase;line-height:140%">10h-20h30 non-stop</div>
+                        </div>
+                        <div class="col-xs-8 content-img wow fadeInRight" style="padding-right:0px">
+                               <a href="#mapModal" data-toggle="modal">
+                                <img src="img/map.jpg" alt="Faby" class="img-responsive" height="200" width="230" />
+                            </a>
+                        </div>
+                        <div class="col-xs-9 title" style="margin-top:10px">
+                            <a href="index.html ">
+                                <img src="img/logo_header_brillant.png" alt="Faby " class="img-responsive" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="modal fade betterDialog" id="mapModal" tabindex="-1" role="dialog" aria-labelledby="galleryModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="max-width:480px">
+            <div class="modal-content">
+                <div class="modal-nav">
+                    <div class="title pull-left">
+                        Ma zone de déplacement
+                    </div>
+                    <button type="button" class="close pull-right" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                    <img src="img/map.jpg" alt="Faby" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="tab-content wow fadeIn" data-wow-offset="100" style="padding-top:5px;margin-top:-30px">
+        <div class="container">
+            <div role="tabpanel">
+                <div class="tab-content-nav">
+                    <ul class="nav nav-tabs" role="tablist" style="font-family:arial;font-size:18px">
+                        <li role="presentation" class="active"><a href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">PRÉSENTATION</a></li>
+                        <!--<li role="presentation"><a href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">ITINÉRANTE DU BIEN-ÊTRE</a></li>-->
+                    </ul>
+                </div>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="tab-1">
+                        <div class="container">
+                        <div class="row">
+                            <div class="wow fadeInRight tilde justify col-md-offset-1 col-md-10 col-xs-offset-1 col-xs-10 nopadding">
+                                <p style="margin-bottom:0px">
+                                    Forte d’une expérience professionnelle de 30 ans, je mets à votre service mes compétences d’experte afin de vous offrir une
+                                    parenthèse «Sur Mesure».
+                                    <br /> Exigeante, je recherche en permanence une parfaite adéquation entre «qualité du produit
+                                    et technique appliquée». <b>Votre satisfaction est ma priorité !</b> Ma passion motive mon perfectionnisme à me former à toutes
+                                    les dernières techniques que ce soit au niveau du corps, du visage, des massages, des
+                                    prothèses ongulaires et de la dermopigmentation.
+                                    <br /> J’interviens à votre domicile autour de la commune de Perpignan.
+                                    Je me veux flexible sur les déplacements* et horaires afin de pouvoir vous offrir
+                                    un confort maximum.
+                                    <br />
+                                    <div style="margin-top:0px;font-size:18px"><i>* Tarifs modulables de 5€ à 10€ en fonction du kilométrage.</i></div>
+                                    <br />
+                                </p>
+                                <p class="text-center" style="margin-top:0px"><b><i>«La beauté plaît aux yeux. La douceur charme l’âme» – Voltaire</i></b></p>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="wow fadeInLeft col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-7 col-xs-6" >
+                                <img src="img/index1.png" alt="Faby" class="img-responsive" />
+                            </div>
+                            <div class="wow fadeInRight col-md-offset-0 col-md-5 col-sm-offset-2 col-sm-7 col-xs-6" >
+                                <img src="img/index2.png" alt="Faby" class="img-responsive" />
+                            </div>
+                        </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tab-content wow fadeIn" data-wow-offset="100" id="femininmasculin" style="padding-top:10px">
+        <div class="container">
+            <div class="row wow fadeIn" data-wow-offset="200">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        L'ESPACE POUR
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-6 feature text-center wow fadeIn couleurFeminin" style=""
+                         data-wow-duration="2s" data-wow-offset="200">
+                        <a href="feminin.html">
+                            <div class="hovereffectfeminin">
+                                <img src="img/logofeminin2.png" class="img-responsive" alt="Au féminin" />
+                                <div class="overlay">
+                                    <h2>Elle</h2>
+                                    <p>
+                                        <a href="feminin.html">Entrer</a>
+                                    </p>
+                                </div> 
+                            </div>
+                        </a>
+                    </div>
+                    <!--<div class="col-md-1 col-sm-1 col-sm-offset-0 col-xs-4 col-xs-offset-4" style="text-align:right">Elle</div>-->
+                    <div class="col-xs-1 hidden-xs" style="padding-right:15px;padding-left:6px;width:1.2%">
+                        <img src="img/trait_separation.png" width="8" height="350" />
+                    </div>
+                    <!--<div class="col-md-1 col-sm-1 col-sm-offset-0 col-xs-4 col-xs-offset-4" style="text-align:left">Lui</div>-->
+                    <div class="col-md-4 col-sm-4 col-sm-offset-0 col-xs-6 feature text-center wow fadeIn" style="background-color:black"
+                         data-wow-duration="5s" data-wow-offset="150">
+                        <a href="masculin.html">
+                            <!--<h3>Soins pour lui</h3>-->
+                            <div class="hovereffectmasculin">
+                                <img src="img/logomasculin.png" class="img-responsive" alt="Au masculin" />
+                                <div class="overlay">
+                                    <h2>Lui</h2>
+                                    <p>
+                                        <a href="masculin.html">Entrer</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-simple wow fadeIn" id="footer-simple-1">
+        <div class="container">
+            <div class="row">
+                <div class="visible-md">
+                    <div class="col-md-offset-3 col-md-2 text-center">
+                        <div>
+                            <img src="img/logo_header_brillant.png" alt="Faby " width="170" height="50" />
+                        </div>
+                    </div>
+                    <div class="col-md-offset-1 col-md-3">
+                        <p class="footerFont">Le Soin vient à Vous <span style="color:black">!</span></p>
+                    </div>
+                </div>
+
+                <div class="visible-lg visible-sm visible-xs">
+                    <div class="col-md-offset-3 col-md-2 text-center">
+                        <div>
+                            <img src="img/logo_header_brillant.png" alt="Faby " width="170" height="50" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="footerFont">Le Soin vient à Vous <span style="color:black">!</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--<a href="#home" class="scroll-to scroll-up-btn hidden-xs"><i class="fa fa-angle-up"></i></a>-->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js"></script>
+    <script src="assets/wow/wow.min.js"></script>
+    <script src="js/animated-headlines.js"></script>-->
+    <script src="js/bundle.js"></script>
+    <script>
+        "use strict";
+        new WOW({ mobile: false }).init();
+    </script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
